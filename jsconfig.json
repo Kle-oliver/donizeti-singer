@@ -1,9 +1,9 @@
 {
-    "compilerOptions": {
-      "paths": {
-        "@components/*": ["./src/components/*"],
-        "@pages/*": ["./src/pages/*"],
-        "@assets/*": ["./src/assets/*"],
-      },
-    }
+  "compilerOptions": {
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@assets/*": ["./src/assets/*"],
+    },
   }
+}

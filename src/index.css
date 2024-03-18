@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/fonts/Quicksand.ttf') format('truetype');
+}
+
+body{
+  background-color: black;
+  color: white;
+}
