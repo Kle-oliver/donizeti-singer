@@ -2,12 +2,12 @@ import styles from './Nav.module.css';
 
 export default function Nav() {
     return (
-      <nav>
-        <a href="#" className={ styles.nav }>sobre</a>
-        <a href="#" className={ styles.nav }>videos</a>
-        <a href="#" className={ styles.nav }>ínicio</a>
-        <a href="#" className={ styles.nav }>agenda</a>
-        <a href="#" className={ styles.nav }>contato</a>
+      <nav className={ styles.nav }>
+        <a href="#" className={ styles.tab }>sobre</a>
+        <a href="#" className={ styles.tab }>videos</a>
+        <a href="#" className={ styles.tab }>ínicio</a>
+        <a href="#" className={ styles.tab }>agenda</a>
+        <a href="#" className={ styles.tab }>contato</a>
       </nav>
     );
   }

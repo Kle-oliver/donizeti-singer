@@ -1,14 +1,21 @@
-
-
 .nav {
+  border: 1px solid red; /* Bordar vermelha para visualizar o elemento */
+  width: 80%;
+  padding-top: 2.5rem;
+  display: flex;
+  justify-content: space-around; /* Alinha os elementos filhos ao centro horizontalmente */
+  margin: 0 auto; /* Centraliza o elemento na página */
+}
+
+
+.tab {
   font-family: 'Quicksand';
   font-size: xx-large;
   color: white;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.nav:hover,
-.nav:focus {
+.tab:hover,
+.tab:focus {
   background-color: #4a5568;
-  color: #ffffff;
 }
