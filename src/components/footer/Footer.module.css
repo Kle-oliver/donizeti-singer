@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  background-color: black;
+  opacity: 75%;
+  text-align: center;
+  position: fixed;
+  bottom: 0%;
+  z-index: 1000;
+}
+
+.icons {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.icons a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.icons .icon {
+  font-size: x-large;
+  color: white;
+  padding: 0.5rem;
+  margin-right: 3rem;
+}

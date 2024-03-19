@@ -1,9 +1,15 @@
 import Nav from '@components/nav'
-
-export default function Home() {
+import Footer from '@components/footer'
+import styles from './Home.module.css';
+  
+  const App = () => {
     return (
-      <div>
+      <div className={ styles.background }>
         <Nav />
+        <Footer />
       </div>
     );
-  }
+  };
+  
+  export default App;
+  
